@@ -1,0 +1,12 @@
+:root {
+  --lightGrey: #dadcdc;
+}
+
+.header-custom {
+  margin-bottom: 50px;
+  padding-block: 20px;
+  text-align: center;
+  margin-left: 25px;
+  width: 93%;
+  border-block: 0.1px solid var(--lightGrey);
+}

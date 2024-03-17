@@ -1,0 +1,15 @@
+:root {
+  --lightGrey: #dadcdc;
+}
+.status-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-header {
+  text-align: center;
+  border: 0.1px solid var(--lightGrey);
+  width: 100%;
+  margin-top: 150px;
+}

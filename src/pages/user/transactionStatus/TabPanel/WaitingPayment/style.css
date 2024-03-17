@@ -1,0 +1,95 @@
+:root {
+  --lightGrey: #dadcdc;
+}
+
+.transaction-container {
+  width: 60%;
+  margin: 20px auto;
+  border: 0.1px solid var(--lightGrey);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.transaction-status {
+  font-size: 0.8em;
+  background-color: #ebffef;
+  color: #208334;
+  font-weight: bold;
+  padding: 0.3em;
+  border-radius: 5px;
+}
+.transaction-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-detail-item {
+  padding-block: 10px;
+}
+.transaction-item {
+  border: 0.1px solid var(--lightGrey);
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+.transaction-item-info1 {
+  margin-bottom: 8px;
+}
+
+.transaction-img {
+  width: 50px;
+  border: 1px solid #dfdfdf;
+}
+
+.transaction-info2 p {
+  margin-bottom: 5px;
+}
+
+.transaction-info2 .support {
+  font-size: 0.8em;
+  color: gray;
+}
+
+.transaction-total-price,
+.transaction-detail-link {
+  width: 24%;
+  padding-left: 50px;
+  border-left: 0.1px solid var(--lightGrey);
+}
+
+.transaction-detail-link {
+  display: flex;
+  justify-content: center;
+  margin-block: 20px;
+  margin-left: auto;
+}
+
+.transaction-total-price div {
+  margin-top: 50px;
+  margin-bottom: 3px;
+  margin-left: 30px;
+}
+
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+
+.file-input label {
+  display: block;
+  position: relative;
+  width: 195px;
+  height: 50px;
+  border-radius: 25px;
+  background: black;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}

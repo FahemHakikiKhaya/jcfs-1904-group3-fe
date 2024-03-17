@@ -1,0 +1,44 @@
+.dashboard-container {
+  display: flex;
+  margin-top: 20px;
+}
+.dashboard {
+  flex: 6;
+}
+
+.admin-product-image {
+  height: 80px;
+}
+.table-header {
+  display: flex;
+  justify-content: end;
+}
+.table-container {
+  width: 100%;
+  height: 800px;
+}
+.button-container {
+  display: flex;
+  justify-content: end;
+}
+.admin-product-button {
+  width: 100%;
+  justify-content: center;
+}
+.table-data {
+  text-align: center;
+}
+.row-1 {
+  width: 5%;
+}
+.row-2 {
+  width: 70%;
+}
+.row-3 {
+  width: 15%;
+  text-align: center;
+  align-items: center;
+}
+.row-4 {
+  width: 10%;
+}

@@ -1,0 +1,7 @@
+.navigation-wrapper {
+  margin-top: 20px;
+  display: flex;
+}
+.page-container {
+  flex: 6;
+}
